@@ -1,5 +1,5 @@
 import Banner from "../Layout/Banner";
-import About from "../Layout/about";
+import About from "../Layout/About";
 import Service from "./Service";
 
 
