@@ -50,7 +50,7 @@ import PrivetRoot from "../Root/PrivetRoot";
         {
           path: "cheackout/:id",
           element: <PrivetRoot><Cheackout></Cheackout></PrivetRoot>,
-          loader: ({params}) => fetch(`http://localhost:5000/services/${params.id}`)
+          loader: ({params}) => fetch(`https://car-doctor-server-eta-ruddy.vercel.app/services/${params.id}`)
 
         },
         {

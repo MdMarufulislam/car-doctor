@@ -7,7 +7,7 @@ import axios from "axios";
 const Bookings = () => {
     const { user } = useContext(context)
     const [Bookings, setBokkings] = useState([])
-    const url = `http://localhost:5000/booking?email=${user.email}`
+    const url = `https://car-doctor-server-eta-ruddy.vercel.app/booking?email=${user.email}`
     useEffect(() => {
         axios.get(url, {withCredentials: true})
         .then(res => {

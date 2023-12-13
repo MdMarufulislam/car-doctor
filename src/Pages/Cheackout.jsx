@@ -27,7 +27,7 @@ const Cheackout = () => {
             Massage:msg,
             Id: _id
         }
-        fetch("http://localhost:5000/booking", {
+        fetch("https://car-doctor-server-eta-ruddy.vercel.app/booking", {
             method:"POST",
             headers:{
                 "content-type":"application/json"
